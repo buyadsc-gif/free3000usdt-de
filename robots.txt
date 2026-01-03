@@ -1,13 +1,28 @@
-# Основні правила для всіх пошукових роботів
 User-agent: *
 Allow: /
 
-# Заборона для AI-ботів, щоб не використовували контент для тренування
-User-agent: *ai-train*
+User-agent: Amazonbot
 Disallow: /
 
-# Карта сайту
-Sitemap: https://de.free3000usdt.today/sitemap.xml
+User-agent: Applebot-Extended
+Disallow: /
 
-# Опціонально: кешування та перевірка доступності
-Crawl-delay: 5
+User-agent: Bytespider
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: meta-externalagent
+Disallow: /
+
+Sitemap: https://de.free3000usdt.today/sitemap.xml
